@@ -1,26 +1,17 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# CysFib App
+Digital Design and Development Task : final app Cystic Fibrosis | Ahmed Muneer | MScIT B2 | UWE | Villa College
 
-## How to use this template
+## Author
+- Name: Ahmed Muneer
+- Program: MScIT B2
+- Email: Ahmed2.Muneer@live.uwe.ac.uk
+- GitHub: https://github.com/miyya
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+## Getting Started
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
-
-Then, to run it, cd into `myTabs` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
+* Clone this repository: `git clone https://github.com/miyya/Cysfib.git`.
+* Run `npm install` from the project root.
+* Install the ionic CLI (`npm install -g ionic`)
+* Run `ionic serve` in a terminal from the project root.
+* Profit
 
