@@ -12,5 +12,5 @@ Digital Design and Development Task : final app Cystic Fibrosis | Ahmed Muneer |
 * Clone this repository: `git clone https://github.com/miyya/Cysfib.git`.
 * Run `npm install` from the project root.
 * Run `ionic serve` in a terminal from the project root.
-* Profit
+
 
