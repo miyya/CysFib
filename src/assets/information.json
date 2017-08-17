@@ -1,0 +1,144 @@
+{
+    "items": [
+       {
+            "name": "Airway Clearance technique",
+            "children": [
+                {
+                    "name": "Information",
+                    "children": [
+                        {
+                          
+                            "information": "Acute respiratory infections occur periodically in people with CF. If these infections are not treated quickly, they may trigger a lot of secretions (mucus) and pus, and eventually cause damage to the bronchial system.  Repeated infections over the years results in progressive loss of lung function.  We refer to acute infections as Pulmonary Exacerbations (PEx). "
+                          
+                        }
+                    ]
+                },
+                {
+                    "name": "Recommendations",
+                    "children": [
+                        {
+                           
+                            "information": "Know the symptoms of Pulmonary Exacerbation (Pex), and call the center early if any new symptoms develop. At the first sign of a respiratory infection, remember to increase your airway clearance techniques (ACTs) to 4 times a day. We would like you to call if you have any new respiratory symptoms."
+                            
+                        }
+                    ]
+                },
+                {
+                    "name": "Goals",
+                    "children": [
+                        {
+                           
+                            "information": "Identify and treat your Pulmonary Exacerbations early to maintain optimal lung function."
+                            
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nutrition",
+            "children": [
+                {
+                    "name": "Information",
+                    "children": [
+                        {
+                          
+                            "information": "The CFF has found that maintenance of normal nutrition and a normal weight is associated with better health, better lung function, and longer life.  Many people with CF have lower than normal weight.  Because you have higher energy needs (need more calories) than those people without CF, you need to eat more calories—110% - 200% more than of what other people eat. "
+                            
+                        }
+                    ]
+                },
+                {
+                    "name": "Recommendations",
+                    "children": [
+                        {
+                           
+                            "information": " Eat three balances meals and two snacks each day.  Take your pancreatic enzymes, if prescribed, with meals and snacks.  Nutritional supplements may be useful if advised by your dietician.  Tube feedings at night may also be helpful in some people with CF."
+                            
+                        }
+                    ]
+                },
+                {
+                    "name": "Goals",
+                    "children": [
+                        {
+                           
+                            "information": "Develop knowledge of nutrition, including types and amounts of food, and how good nutrition helps your lung function. Understand the need for and dosing of pancreatic enzyme replacement therapy (PERT). ."
+                            
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Exercise",
+            "children": [
+                {
+                    "name": "Information",
+                    "children": [
+                        {
+                          
+                            "information": "Regular exercise has many benefits for all people.  It is especially important for people with CF. There is evidence that physical fitness enhances the immune system and helps a person fight infection.  People who are physically fit have less severe and less frequent episode of infection.  Exercise may also be a valuable part of airway clearance techniques (ACT). "
+                          
+                        }
+                    ]
+                },
+                {
+                    "name": "Recommendations",
+                    "children": [
+                        {
+                           
+                            "information": "hirty minutes of exercise daily.  Cardio/aerobic exercise, (stamina and endurance exercise) should be done on most days.  Examples include brisk walking, biking, jogging, swimming, and use of aerobic exercise equipment.  Strength building exercises, for older children and adults, should be done 2-3 times weekly. "
+                            
+                        }
+                    ]
+                },
+                {
+                    "name": "Goals",
+                    "children": [
+                        {
+                           
+                            "information": "Develop a working knowledge of types of exercise.  Achieve and maintain a state of aerobic fitness.  Achieve and maintain a better than average level of strength."
+                            
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Respiratory Infections/Exacerbations",
+            "children": [
+                {
+                    "name": "Information",
+                    "children": [
+                        {
+                          
+                            "information": "Acute respiratory infections occur periodically in people with CF. If these infections are not treated quickly, they may trigger a lot of secretions (mucus) and pus, and eventually cause damage to the bronchial system.  Repeated infections over the years results in progressive loss of lung function. We refer to acute infections as Pulmonary Exacerbations (PEx). "
+                          
+                        }
+                    ]
+                },
+                {
+                    "name": "Recommendations",
+                    "children": [
+                        {
+                           
+                            "information": "Know the symptoms of Pulmonary Exacerbation (Pex), and call the center early if any new symptoms develop. At the first sign of a respiratory infection, remember to increase your airway clearance techniques (ACTs) to 4 times a day. "
+                            
+                        }
+                    ]
+                },
+                {
+                    "name": "Goals",
+                    "children": [
+                        {
+                           
+                            "information": "Identify and treat your Pulmonary Exacerbations early to maintain optimal lung function."
+                            
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

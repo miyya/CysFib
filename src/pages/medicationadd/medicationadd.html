@@ -1,0 +1,48 @@
+<!--Ahmed Muneer
+  MscIT batch 2
+  S1203016285
+  ahemdmuneer16@outlook.com
+  -->
+
+  <!--Medication add page-->
+<ion-header>
+  
+  <ion-navbar>
+    <ion-title>Data Entry</ion-title>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+<ion-list>
+  
+
+  <!--Medication add page contents-->
+<ion-item>    
+<ion-label floating>Med. Name</ion-label>
+ <ion-input type="text" [(ngModel)]="Mname"></ion-input>
+</ion-item>
+<ion-item>    
+  <ion-label floating>Milligram</ion-label>
+   <ion-input type="text" [(ngModel)]="Mil"></ion-input>
+  </ion-item>
+  <ion-item>    
+  <ion-label floating>Frequency</ion-label>
+   <ion-input type="text" [(ngModel)]="Freq"></ion-input>
+  </ion-item>
+
+  <ion-item>
+<ion-label floating>Date</ion-label>
+<ion-datetime displayFormat="MMM/DD/YYYY" [(ngModel)]="myDate"></ion-datetime>
+
+</ion-item>
+
+
+  <!--button to add items to storage-->
+</ion-list>
+<button full ion-button color="danger" (click)="saveItem()">Save</button> 
+
+</ion-content>

@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title  >
+      Self care
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+     <ion-list>
+       <ion-list-header class="ggh2">
+       <h2 class="ggh2h" > Guidelines </h2>
+    </ion-list-header>
+        <ion-item (click)="loadCfg()">
+    <ion-avatar item-start>
+      <img src="assets/img/cf.png">
+       </ion-avatar>
+        <h2 >CF</h2>  
+        <p class="scfp">Cystic Fibrosis guidelines</p>
+        <button ion-button clear item-end >view</button>
+  </ion-item>
+      </ion-list>
+  <ion-list>
+    
+      <ion-item (click)="load1()">
+        <ion-avatar item-start>
+        <img src="assets/img/nutrition.png">
+    </ion-avatar>
+        <h2>Dietary & Nutrition</h2>  
+        <p class="scfp">Daily dietary & nutrition guidelines</p>
+    <button ion-button clear item-end >view</button>
+  </ion-item>
+</ion-list>
+
+
+
+<ion-list class="scb">
+  <ion-item class="scb" (click)="loadSelfcareguide()">
+    <ion-avatar item-start>
+      <img src="assets/img/icon.png">
+       </ion-avatar>
+        <h2 class="scp" >Cysfib care</h2>  
+        <p class="scpp">Treat your self</p>
+        <button ion-button clear item-end class="scp" >view</button>
+  </ion-item>
+   
+</ion-list>
+
+
+
+
+
+
+
+</ion-content>

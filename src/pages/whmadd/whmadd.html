@@ -1,0 +1,45 @@
+<!--Ahmed Muneer
+  MscIT batch 2
+  S1203016285
+  ahemdmuneer16@outlook.com
+  -->
+<!--page for weight and height data enter  -->
+
+<ion-header>
+  
+  <ion-navbar>
+    <ion-title>Data Entry</ion-title>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+<ion-list>
+  <!--page contents
+  -->
+
+    <!--ngModel used to enter data
+  -->
+<ion-item>    
+<ion-label floating>Height</ion-label>
+ <ion-input type="number" [(ngModel)]="Height"></ion-input>
+</ion-item>
+<ion-item>    
+  <ion-label floating>Weight</ion-label>
+   <ion-input type="number" [(ngModel)]="Weight"></ion-input>
+  </ion-item>
+
+  <ion-item>
+<ion-label floating>Date</ion-label>
+<ion-datetime displayFormat="MMM/DD/YYYY" [(ngModel)]="myDate"></ion-datetime>
+
+</ion-item>
+
+</ion-list>
+ <!--save button to save data to the storage -->
+<button full ion-button color="danger" (click)="saveItem()">Save</button> 
+
+</ion-content>

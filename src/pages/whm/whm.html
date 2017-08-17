@@ -1,0 +1,43 @@
+<!--Ahmed Muneer
+  MscIT batch 2
+  S1203016285
+  ahemdmuneer16@outlook.com
+  -->
+
+<ion-header>
+  
+    <ion-navbar>
+        <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Weight and Height Monitor</ion-title>
+          <ion-buttons start>
+            <!--button to call whmadd page or navigate to add page-->
+            <button ion-button color="primary"   id="addmx2" icon-only (click)="addItem()"><ion-icon ios="ios-add" md="md-add" id="addmx"></ion-icon></button>
+           
+            </ion-buttons>
+      </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content>
+       <!--page contents-->
+    <ion-list detail-non>
+         <!--NgFor used to get whm data from the storage and display-->
+      <ion-item-sliding  *ngFor="let item of items; let i = index"(click)="viewItem(item)" detail-none> 
+        <ion-item >
+           <ion-icon name= "arrow-forward" item-right></ion-icon>
+        <a>Height : {{item.Height}} & Weight : {{item.Weight}}  on  {{item.myDate}}</a>
+   <!--Delete button to delete items-->
+       </ion-item>
+       <ion-item-options side="left">
+         <button ion-button color="danger" (click)="delete(i)">delete</button>
+       </ion-item-options>
+   
+   
+     </ion-item-sliding>
+     <p> slide right to delete. click to view item details</p>
+  </ion-list>
+  </ion-content>
+  

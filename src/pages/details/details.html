@@ -1,0 +1,43 @@
+<!--Ahmed Muneer
+  MscIT batch 2
+  S1203016285
+  ahemdmuneer16@outlook.com
+  -->
+
+<ion-header>
+  <ion-navbar >
+    <ion-title class="opnav">
+       <!--tile of the page--> 
+     {{item.Name}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content>
+
+  <ion-list class="accordion-list">
+    
+     <ion-item  text-wrap>
+         <!--dislplaying items for detail page of CF and niutrition guide--> 
+             <ion-card-title>
+        {{item.Name}}
+      </ion-card-title>
+  <ion-card>
+    <img src="assets/img/{{item.Image}}"/>
+    
+  </ion-card>
+ 
+     
+      <p class="pline">
+        {{item.Design}}
+      </p>
+    
+ 
+            
+          </ion-item>
+    
+  </ion-list>
+  
+
+</ion-content>
+

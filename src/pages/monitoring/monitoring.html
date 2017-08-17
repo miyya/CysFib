@@ -1,0 +1,72 @@
+<!--Ahmed Muneer
+  MscIT batch 2
+  S1203016285
+  ahemdmuneer16@outlook.com
+  -->
+
+  <!--monitoring page-->
+<ion-header>
+  <ion-navbar>
+    <ion-title  >
+      Self care
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+  <!--navigation section of the page-->
+<ion-content padding>
+  <ion-list>
+    <ion-list-header class="ggh2">
+       <h2 class="ggh2h" > Monitoring </h2>
+    </ion-list-header>
+        <!--Helath calculator page navigation -->
+      <ion-item (click)="Healthcal()">
+        <ion-avatar item-start>
+        <ion-icon clear item-right name="ios-pulse" class="debutton"></ion-icon>
+    </ion-avatar>
+        <h2>Health calculator</h2>  
+        <p class="scfp">Measure your health daily</p>
+     <ion-icon clear item-right name="arrow-forward" class="debutton"></ion-icon>
+  </ion-item>
+
+   
+</ion-list>
+
+      <!--Medication monitor page navigation -->
+<ion-list>
+<ion-item (click)="DailyAct()">
+        <ion-avatar item-start>
+        <ion-icon clear item-right name="ios-analytics" class="debutton"></ion-icon>
+    </ion-avatar>
+        <h2>Monitor Medication</h2>  
+        <p class="scfp">Manage and monitor daily medication</p>
+     <ion-icon clear item-right name="arrow-forward" class="debutton"></ion-icon>
+  </ion-item>
+</ion-list>
+      <!--Diatary Monitoring page navigation -->
+<ion-list>
+<ion-item (click)="Fod()">
+        <ion-avatar item-start>
+        <ion-icon clear item-right name="nutrition" class="debutton"></ion-icon>
+    </ion-avatar>
+        <h2>Monitor Diatary</h2>  
+        <p class="scfp">Manage and monitor diatary</p>
+     <ion-icon clear item-right name="arrow-forward" class="debutton"></ion-icon>
+  </ion-item>
+</ion-list>
+      <!--Height and weight monitoring page navigation -->
+<ion-list>
+<ion-item (click)="Todo()">
+        <ion-avatar item-start>
+        <ion-icon clear item-right name="list" class="debutton"></ion-icon>
+    </ion-avatar>
+        <h2>Height and Weight Monitoring</h2>  
+        <p class="scfp">Monitor Health and Weight</p>
+     <ion-icon clear item-right name="arrow-forward" class="debutton"></ion-icon>
+  </ion-item>
+</ion-list>
+
+
+
+
+</ion-content>

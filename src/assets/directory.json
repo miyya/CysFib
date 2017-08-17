@@ -1,0 +1,111 @@
+{
+    "items": [
+       {
+            "name": "Hospitals",
+            "children": [
+                {
+                    "name": "ADK Hospital",
+                    "children": [
+                        {
+                           "op": "24 Hours",                            
+                            "information": "Sosun Magu, Malé 20040' ",
+                            "phone": "+960 331-3553",
+                            "cat":"1"
+                          
+                        }
+                    ]
+                },
+                {
+                    "name": "Indira Gandhi Memorial Hospital",
+                    "children": [
+                        {
+                            "op": "24 Hours",                            
+                            "information": "Kanbaa Aisa Rani Hingun, K. Male' ",
+                            "phone": "+960 333-5335",
+                            "cat":"1"
+                                                     
+                         
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Clinics",
+            "children": [
+                {
+                    "name": "AMDC Clinic",
+                    "children": [
+                        {
+                           "op": "08:30AM–10:30PM",                            
+                            "information": "M.Misururuvaage, Shaariu Varudhee, Malé ",
+                            "phone": "+960 332-5979",
+                            "cat":"1"
+                          
+                        }
+                    ]
+                },
+                {
+                    "name": "Central Clinic",
+                    "children": [
+                        {
+                            "op": "08:30AM–10:30PM",                            
+                            "information": "Dhillee villa Jambu Magu Malé ",
+                            "phone": "+960 331-2221",
+                            "cat":"1"
+                                                     
+                         
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Doctors",
+            "children": [
+                {
+                    "name": "Dr. Thasneem Farooq",
+                    
+                    "children": [
+                        {
+                          
+                        
+                            "phone": "+960 333-5335",                                                      
+                            "wp": "ADK Hospital",
+                            "dep": "Internal Medicine",
+                            "qf":"MBBS, MS",
+                             "cat":"2"
+                            
+                        }
+                    ]
+                },
+                {
+                    "name": "Dr. Diana Dawson",
+                    "children": [
+                        {
+                            "phone": "+960 331-3553",                                                      
+                            "wp": "IGMH Hospital",
+                            "dep": "pediatric ",
+                            "qf":"MBBS, MS",
+                             "cat":"2"
+                        }
+                    ]
+                },
+                {
+                    "name": "Dr. Mary Ellen ",
+                    "children": [
+                        {
+                            "phone": "+960 331-3553",                                                      
+                            "wp": "IGMH Hospital",
+                            "dep": "pulmonologist ",
+                            "qf":"MBBS, MS",
+                             "cat":"2"
+                        }
+                    ]
+                }
+            ]
+        }
+         
+    ]
+}
+

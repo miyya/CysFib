@@ -1,0 +1,32 @@
+<!--Ahmed Muneer
+  MscIT batch 2
+  S1203016285
+  ahemdmuneer16@outlook.com
+  -->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+<!--Home page content display
+  -->
+<ion-content class="tutorial-page" id="bbm">
+
+  <ion-slides pager>
+    <ion-slide *ngFor="let slide of slides">
+      <ion-avatar item-start id="ppm1">
+          <img [src]="slide.image">
+        </ion-avatar>
+     
+      <h2 class="ttslide-title" [innerHTML]="slide.title"></h2>
+      <!--ngIf condition used to filter readmore for the display content
+  -->
+      <p [innerHTML]="slide.description"  id="ppm1"> </p>
+      <p *ngIf=" slide.po == '1'"><a (click)="load1()">Read More</a></p>
+      <p *ngIf=" slide.po == '2'"><a (click)="loadCfg()">Read More</a></p>
+      <p *ngIf=" slide.po == '3'"><a (click)="loadSelfcareguide()">Read More</a></p>
+     
+    </ion-slide>
+   
+  </ion-slides>
+</ion-content>

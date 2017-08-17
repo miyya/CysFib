@@ -1,0 +1,75 @@
+<!--Ahmed Muneer
+  MscIT batch 2
+  S1203016285
+  ahemdmuneer16@outlook.com
+  -->
+
+  <!--Health calculation page-->
+<ion-header>
+
+    <ion-navbar>
+
+        <ion-title class="opnav">
+
+            Health Calculator
+
+        </ion-title>
+
+    </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+ <ion-list-header class="ggh2">
+     <h2 class="ggh2h"> Health Calculator </h2>
+    </ion-list-header> 
+</ion-list>
+    <ion-list>
+
+        <ion-item>
+
+            <ion-label color="dark">Height: </ion-label>
+                <!--Height imput in Health calculation-->
+                <ion-input type="number" [(ngModel)]="firstNumber" placeholder="Enter height (CM)"></ion-input>
+
+        </ion-item>
+
+        <ion-item>
+            <!--Weight imput in Health calculation-->
+            <ion-label color="dark">Weight: </ion-label>
+
+            <ion-input type="number" [(ngModel)]="secondNumber" placeholder="Enter weight (KG)"></ion-input>
+
+        </ion-item>
+
+    </ion-list>
+
+     <ion-row>
+    
+    <ion-col center text-center>
+      <button ion-button block color="danger"(click)="addThemFunction()">Claculate</button>
+    </ion-col>
+  </ion-row>
+
+
+    <ion-card>
+
+      
+         <!--Display results and suggestion, using ngIF for different conditions-->
+        <ion-card-content center text-center *ngIf=" view == 'u'">
+       <p *ngIf=" view == 'u'" > <b> Your Health Results:</b><br> {{total}} <a (click)="load1()">Nutrition</a>, <a (click)="loadSelfcareguide()">Self-care guide</a> and <a (click)="loadCfg()">CF Guide</a>    </p> 
+        </ion-card-content>
+        <ion-card-content center text-center *ngIf=" view == 'o'">
+        <p *ngIf=" view == 'o'" > <b> Your Health Results:</b><br> {{total}} <a (click)="load1()">Nutrition</a>, <a (click)="loadSelfcareguide()">Self-care guide</a> and <a (click)="loadCfg()">CF Guide</a>    </p> 
+         </ion-card-content>
+        <ion-card-content center text-center *ngIf=" view == 'n'">         
+         <p *ngIf=" view == 'n'" > <b> Your Health Results:</b> <br>{{total}} <a (click)="load1()">Nutrition</a>, <a (click)="loadSelfcareguide()">Self-care guide</a> and <a (click)="loadCfg()">CF Guide</a>    </p> 
+        </ion-card-content>
+
+
+    </ion-card>
+ 
+
+</ion-content>
+

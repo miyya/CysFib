@@ -1,0 +1,48 @@
+
+<!--
+  Generated template for the NutrientsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <!--Ahmed Muneer
+  MscIT batch 2
+  S1203016285
+  ahemdmuneer16@outlook.com
+  -->
+    <ion-navbar>
+        <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Monitor Diatary</ion-title>
+        <!--button to call add items to diatary monitoring-->
+          <ion-buttons start>
+            <button ion-button color="primary"   id="addmx2" icon-only (click)="addItem()"><ion-icon ios="ios-add" md="md-add" id="addmx"></ion-icon></button>
+           
+            </ion-buttons>
+      </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content>
+        <!--displaying of diatary monitoring item-->
+    <ion-list detail-non>
+      <ion-item-sliding  *ngFor="let item of itemsF; let i = index"(click)="viewItem(item)" detail-none> 
+        <ion-item >
+           <ion-icon name= "arrow-forward" item-right></ion-icon>
+        <a>Diatary : {{item.Dname}} Date:  {{item.myDate}} | Time : {{item.Time}}</a>
+   
+       </ion-item>
+       <!--delete item of diatary monitoring item-->
+       <ion-item-options side="left">
+         <button ion-button color="danger" (click)="delete(i)">delete</button>
+       </ion-item-options>
+   
+   
+     </ion-item-sliding>
+     <p> slide right to delete. click to view item details</p>
+  </ion-list>
+  </ion-content>
+  

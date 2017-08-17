@@ -1,0 +1,39 @@
+<!--Ahmed Muneer
+  MscIT batch 2
+  S1203016285
+  ahemdmuneer16@outlook.com
+  -->
+<ion-header>
+  
+  <ion-navbar>
+    <ion-title>Data Entry</ion-title>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+<ion-list>
+  
+    <!--Add food page items. input using ngModel -->
+<ion-item>    
+<ion-label floating>Diatary Name: </ion-label>
+ <ion-input type="text" [(ngModel)]="Dname"></ion-input>
+</ion-item>
+<ion-item>    
+  <ion-label floating>Time</ion-label>
+   <ion-input type="Time" [(ngModel)]="Time"></ion-input>
+  </ion-item>
+
+  <ion-item>
+<ion-label floating>Date</ion-label>
+<ion-datetime displayFormat="MMM/DD/YYYY" [(ngModel)]="myDate"></ion-datetime>
+
+</ion-item>
+
+</ion-list>
+<button full ion-button color="danger" (click)="saveItem()">Save</button> 
+
+</ion-content>
